@@ -191,14 +191,13 @@ body {
 @media screen and (min-width: 600px) {
     body {
         padding: 0;
-        display: flex;
-        justify-content: center;
-        margin-block: 4rem;
+        display: grid;
     }
 
     .main__container {
         width: 47.625em;
         height: min-content;
+        place-self: center;
     }
 
     .mgs-wrapper:nth-last-child(1) {
